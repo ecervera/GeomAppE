@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+ <html lang="en-US">
+
+<head>
+ 
+ <title>VOLUME OF A CYLINDER</title>
+ 
+ <meta charset="utf-8">
+ 
+ <link rel="stylesheet" href="CYLINDER.css">
+ 
+ <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full">
+ </script>
+
+</head>
+
+<body>
+ 
+ <center>
+
+   <h1>Volume of a cylinder</h1>
+   <p>A cylinder is one of the most basic curvilinear geometric shapes, 
+   it consist on a circular base and a determinated height . Here you can calculate the volume of your cylinder!(:
+
+   <p>$$ V_c=\pi R^2 h $$</p>
+ 
+     <img src="CYLINDER.jpg">
+ 
+ <form oninput="v.value = volume(r.valueAsNumber,h.valueAsNumber)">
+
+     <p>Radius: <input name="r" type="number"></p>
+     <p>Height: <input name="h" type="number"></p>
+     <p>Volume: <output name="v"></output></p>
+ </form>
+
+ <script src="CYLINDER.js"></script>
+
+<p align="right"><a href="../HOMEPAGEVOLUME.html">Back</a></p>
+
+</body>
+
+</html>

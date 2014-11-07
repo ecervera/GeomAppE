@@ -1,0 +1,36 @@
+
+ <html lang="en-US">
+
+ <head>
+   <title>VOLUME OF AN ELLIPSOID</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="ELLIPSOID.css">
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full">
+</script>
+ </head>
+
+
+ <body>
+ <center>
+    <h1>Volume of an Ellipsoid</h1>
+   <p>An ellipsoid is a closed quadric surface that is a three-dimensional ellipse. Here you can calculate the volume of your ellipsoid! :D</p>
+    <p>$$ V_E= \frac{4}3 \pi a b c $$</p>
+    <p>
+    <img src="ELLIPSOID.jpg">
+    </p>
+   
+     <form oninput="V.value = volume(a.valueAsNumber,b.valueAsNumber,c.valueAsNumber)">
+      
+     <p>Lenght: <input name="a" type="number"></p>
+     <p>Width: <input name="b" type="number"></p>
+     <p>Height: <input name="c" type="number"></p>
+     <p>Volume: <output name="V"></output></p>
+
+     </form>
+     
+     <script src="ELLIPSOID.js"></script> 
+     <p align="right"><a href="../HOMEPAGEVOLUME.html">Back</a></p>
+ </body>
+
+ </html>

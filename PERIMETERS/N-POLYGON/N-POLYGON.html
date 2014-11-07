@@ -1,0 +1,28 @@
+<!DOCTYPEhtml>
+
+<html lang="en-US">
+
+<head>
+<title>Perimeter of a regular n-poligon</title>
+<meta charset="utf-8">
+ <link rel="stylesheet" href="N-POLYGON.css">
+</head>
+
+<body>
+
+<h1><center>PERIMETER OF A REGULAR N-POLYGON</center></h1>
+<p align=justify> A regular n-polygon is any poligon whose sides are equals and angles too.</p>
+<center><p><img src="N-POLYGON.jpg" width="300" height="150" alt="n-poligon"></p></center>
+<p align=justify> Here you can calculate the perimeter of a regular n-polygon introducing the number of sides and their length with this formula:P=nl</p>
+
+<form oninput="P.value = Perimeter(n.valueAsNumber,l.valueAsNumber)">
+ <p>Number of sides: <input name="n" type="number"></p>
+ <p>Length of the sides: <input name="l" type="number"></p>
+ <p>Perimeter: <output name="P"></output></p>
+ </form>
+ 
+ <script src="N-POLYGON.js"></script> 
+ <p align=right><a href="../HOMEPAGEPERIMETERS.html">Back</a></p>
+</body>
+
+</html>

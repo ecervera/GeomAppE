@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html lang="en-US"> 
+
+  <head> 
+ 
+     <title>SURFACE OF A TORUS</title> 
+     <meta charset="utf-8">
+    
+    <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full">
+  </script>
+    
+    
+   <link rel="stylesheet" href="CONE.css">
+  
+  </head> 
+
+
+  <body>
+  <center>
+ 
+     <h1>Surface of the Cone</h1> 
+ 
+     <p> A cone is a geometrical object which consist on a circular base andn a determinated height.
+ Here you can calculate the surface of whatever torus you can imagine! </p>
+     
+     <p> $$ S_C=\pi^2r+\pi r g $$</p>
+
+     <p><img src="CONE.jpg" width="200" height="250" alt="torus"> 
+</p> 
+ 
+    <form oninput="s.value = surface(r.valueAsNumber,g.valueAsNumber)"> 
+      <p>Radius r: <input name="r" type="number"></p>
+      <p>Generator g: <input name="g" type="number"></p>
+      <p>Surface: <output name="s"></output></p>
+    </form>
+  
+  <script src="CONE.js"></script> 
+<p align="right"><a href="../HOMEPAGESURFACES.html">Back</a></p>
+</body> 
+
+</html>

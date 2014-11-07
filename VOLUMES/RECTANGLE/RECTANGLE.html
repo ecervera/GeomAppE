@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+ <html lang="en-US"> 
+
+ <head>
+
+    <title>VOLUME OF A RECTANGULAR PRISM</title>
+    
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="RECTANGLE.css">
+    
+    <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full">
+  </script>
+ 
+ </head> 
+
+ <body>
+ 
+ <center>
+   <h1>Volume of a rectangular prism</h1>
+   
+   <p> A rectangular prism is a geometrical object which consist on 2 rectangular bases and a determinated height.
+   Here you can calculate the volume of every rectangular prism you can imagine</p>
+   
+   <p>$$ V_R= A*B*C $$</p>
+
+   <img src="RECTANGLE.jpg">
+
+ <form oninput="v.value = volume(x.valueAsNumber, y.valueAsNumber, z.valueAsNumber)">
+  <p>Height: <input name="x" type="number"></p>
+  <p>Width: <input name="y" type="number"></p>  
+  <p>Length: <input name="z" type="number"></p>
+  <p>Volume: <output name="v"></output></p>
+ </form>
+ 
+ <script src="RECTANGLE.js"></script>
+<p align="right"><a href="../HOMEPAGEVOLUME.html">Back</a></p>
+ </body>
+
+</html>

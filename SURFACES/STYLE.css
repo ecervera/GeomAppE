@@ -1,0 +1,16 @@
+head{
+font-size:30px;
+margin:15%;
+}
+body{
+background-color: #AFC9F7;
+font-size: 20px;
+margin: 15%;
+}
+input {
+font-family: Arial;
+font color: #0F30B4;
+font-size: 36px;
+text-align: right;
+width: 30%;
+}

@@ -1,0 +1,39 @@
+<!DOC TYPE html>
+
+ <html lang="en-US">
+
+ <head>
+ 
+	<title>VOLUME OF A TORUS</title>
+    
+	<meta charset="utf-8">
+    
+    <link rel="stylesheet" href="TORUS.css">
+    
+    <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full">
+ </script>
+ 
+ </head>
+
+ <body>
+ 
+	<center><h1>Volume of a Torus</h1>
+    
+    <p> $$ V_T=2\pi r A $$</p>
+	<p>A torus is the revolution's superfice that is created by a closed curve line which rotate over a straigth line.
+    Here you can calculate the volume of the torus you want! C;</p>	
+	   
+       <img src="TORUS.jpg">
+    
+    <form oninput="V.value = volume(r.valueAsNumber,R.valueAsNumber)">
+		<p>Radius: <input name="r" type="number" /></p>
+        <p>Distance: <input name="R" type="number" /></p>
+        <p>Volume: <output name="V"></output></p>
+	</form>
+
+		<script src="TORUS.js"></script>
+		<p align="right"><a href="../HOMEPAGEVOLUME.html">Back</a></p>
+</body>
+
+</html>
